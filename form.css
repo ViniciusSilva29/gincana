@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Onest:wght@100..900&display=swap');
+
+
+body {
+  font-family: "Lexend Deca";
+  background: #d8d8d8;
+  text-align: center;
+}
+
+header {
+  background: #ed1c24;
+  color: white;
+  padding: 2em;
+}
+
+section {
+  background: white;
+  margin: 4em auto;
+  padding: 4em;
+  border-radius: 2.5em;
+  width: 40em;
+}
+
+select {
+    border-radius: 1.3em;
+}
+
+.rodape a {
+    text-decoration: none;
+    color: rgb(216, 0, 0);
+    font-size: 1.3em;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input, select, button {
+  margin: 1em;
+  padding: 1em;
+}
+
+button {
+  background: green;
+  color: white;
+  border: none;
+  font-size: 1em;
+}
+
+table {
+  margin: auto;
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 0.2em solid black;
+  padding: 2em;
+}
+
+.informacoes {
+    font-size: 1.2em;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    background: #ed1c24;
+    padding: 2em;
+}
+
+footer {
+    color: white;
+    background: #ed1c24;
+    font-size: 1.5em;
+    padding: 1em;
+}
+
+
