@@ -87,6 +87,7 @@
         </p>
 
         <p>Grande São Paulo: <strong>(11) 3322-0050</strong>
+        <br>
         Outras Localidades: <strong>0800 055 1000</strong>
         </p>
     </div>
