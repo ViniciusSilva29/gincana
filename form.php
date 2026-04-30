@@ -18,7 +18,7 @@ if(file_exists($arquivo)){
   ];
 }
 
-// Se enviou formulário
+// Executa apenas quando o formulário é enviado
 if($_SERVER["REQUEST_METHOD"] == "POST"){
 
   $equipe1 = $_POST["equipe1"];
@@ -26,9 +26,10 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
   $modalidade = $_POST["modalidade"];
   $vencedor = $_POST["vencedor"];
 
-  if($equipe1 != $equipe2){
+    //Evita que a mesma equipe jogue contra ela mesma
+    if($equipe1 != $equipe2){
 
-    // Registrar jogo
+    // Adiciona um novo jogo ao array jogos
     $dados["jogos"][] = [
       "equipe1" => $equipe1,
       "equipe2" => $equipe2,
@@ -36,7 +37,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
       "vencedor" => $vencedor
     ];
 
-    // Somar ponto
+    // Soma 1 ponto para a equipe vencedora
     $dados["pontuacao"][$vencedor] += 1;
 
     // Salvar com fopen
