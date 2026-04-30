@@ -146,6 +146,14 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
   </ul>
 </section>
 
+<div class="img">
+      <img src="img/bloco1.png" alt="bloco 1" width="400em" height="400em">
+      <img src="img/bloco 2.png" alt="bloco 2" width="400em" height="400em">
+      <img src="img/bloco3.png" alt="bloco 3" width="400em" height="400em">
+      <br>
+      <br>
+</div>
+
 <div class="informacoes">
     <p> <strong>Edifício sede FIESP</strong>
         Av. Paulista, 1313 <br>

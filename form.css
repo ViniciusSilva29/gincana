@@ -69,6 +69,10 @@ td, th {
     padding: 2em;
 }
 
+.img {
+  max-height: 200em;
+}
+
 footer {
     color: white;
     background: #ed1c24;
