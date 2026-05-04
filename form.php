@@ -3,6 +3,7 @@
 // Ler dados do arquivo
 $arquivo = "dados.json";
 
+//verificar se o arquivo existe
 if(file_exists($arquivo)){
   $conteudo = file_get_contents($arquivo);
   $dados = json_decode($conteudo, true);
@@ -46,6 +47,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     fclose($fp);
   }
 }
+//w: Somente escrita. ou cria um novo arquivo se ele não existir.
 
 ?>
 
@@ -54,13 +56,13 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 <head>
 <meta charset="UTF-8">
 <title>Gincana - SENAI</title>
-<link rel="stylesheet" href="form.css">
+<link rel="stylesheet" href="assets/css/form.css">
 </head>
 <body>
 
 <header>
   <h1> Gincana Esportiva SENAI</h1>
-  <img src="img/sesilogo.png" alt="" width="250em">
+  <img src="assets/img/sesilogo.png" alt="" width="250em">
 </header>
 
     <div class="rodape">
@@ -148,9 +150,9 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 </section>
 
 <div class="img">
-      <img src="img/bloco1.png" alt="bloco 1" width="400em" height="400em">
-      <img src="img/bloco 2.png" alt="bloco 2" width="400em" height="400em">
-      <img src="img/bloco3.png" alt="bloco 3" width="400em" height="400em">
+      <img src="assets/img/bloco1.png" alt="bloco 1" width="400em" height="400em">
+      <img src="assets/img/bloco 2.png" alt="bloco 2" width="400em" height="400em">
+      <img src="assets/img/bloco3.png" alt="bloco 3" width="400em" height="400em">
       <br>
       <br>
 </div>

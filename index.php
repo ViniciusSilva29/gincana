@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bem vindo! - SENAI</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
     <header>
     <h1> Gincana Esportiva SENAI</h1>
-    <img src="img/sesilogo.png" alt="" width="250em">
+    <img src="assets/img/sesilogo.png" alt="" width="250em">
     </header>
 
     <div class="moda">
